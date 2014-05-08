@@ -61,4 +61,6 @@ requireWhenAccessed('PeerManager', './lib/PeerManager');
 requireWhenAccessed('Message', './lib/Message');
 requireWhenAccessed('Electrum', './lib/Electrum');
 module.exports.Buffer = Buffer;
+module.exports.BIP39 = require('bip39');
+
 
